@@ -1,0 +1,46 @@
+.BusinessDetailsPage {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2.5% 0 2.5%;
+  height: 90vh;
+}
+
+.BusinessDetailsPageTab {
+  background-color: rgb(58, 204, 172);
+  flex-grow: 1;
+  padding: 2.5%;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: stretch;
+}
+
+.BusinessDetailsPageTabButtonsContainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.BusinessDetailsPageTabButtonsSpace {
+  flex-grow: 1;
+  background-color: rgb(58, 204, 172);
+  border-width: 2px 0 0 0;
+  border-color: rgb(140, 247, 188);
+  border-style: solid;
+}
+
+.BusinessDetailsPageSubscribe {
+  background-color: rgb(58, 204, 172);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(247, 240, 240);
+  padding: 0 1% 0 1%;
+  font-size: 1.4rem;
+  border-width: 2px 0 0 2px;
+  border-color: rgb(140, 247, 188);
+  border-style: solid;
+}
+
+.BusinessDetailsPageSubscribe:hover {
+  background-color: rgb(79, 221, 174);
+  cursor: pointer;
+}

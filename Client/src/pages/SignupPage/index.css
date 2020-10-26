@@ -1,0 +1,35 @@
+.SignupPage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0 10% 0 10%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.SearchBarEmail, .SearchBarPassword, .SearchBarConfirmPassword {
+  margin-top: 2.5rem;
+  height: 3.5rem;
+  font-size: 2rem;
+}
+
+.SignupPageConBis {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  color: rgb(241, 236, 236);
+}
+
+.SignupPageRadioContainer {
+  display: flex;
+}
+
+.SignupPageRadio {
+  height: 1.5rem;
+  width: 1.5rem;
+  align-self: center;
+}
+
+.signupButton {
+  margin-bottom: 2.5rem;
+}

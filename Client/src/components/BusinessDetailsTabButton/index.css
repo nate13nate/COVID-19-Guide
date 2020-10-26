@@ -1,0 +1,26 @@
+.BusinessDetailsTabButton {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(58, 204, 172);
+  border-width: 2px 2px 0 0;
+  border-color: rgb(140, 247, 188);
+  border-style: solid;
+}
+
+.BusinessDetailsTabButtonImg {
+  height: 85%;
+  width: 85%;
+}
+
+.BusinessDetailsTabButton:hover {
+  background-color: rgb(79, 221, 174);
+  cursor: pointer;
+}
+
+.BusinessDetailsTabButton:disabled {
+  background-color: rgb(36, 175, 145);
+  cursor: default;
+}

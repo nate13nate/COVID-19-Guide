@@ -1,0 +1,38 @@
+.aboutUsCard {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  background-color: #36B5B8;
+  width: 15rem;
+  height: 30rem;
+  border-radius: 2rem;
+  vertical-align: top;
+  
+  display: inline-block;
+}
+
+.personImage
+{
+  width: 8rem;
+  height: 8rem;
+  border-color: black;
+  border-width: 5px;
+}
+
+.aboutme {
+  color: white;
+  font-size: 1rem;
+  display: inline;
+
+  padding: 0;
+margin: 0;
+}
+.name {
+  vertical-align: top;
+padding: 1rem; 
+
+padding-bottom: 0.5rem;
+  align-self: center;
+  color: white;
+  font-size: 1rem;
+}

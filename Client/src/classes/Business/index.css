@@ -1,0 +1,152 @@
+.EditBusinessInput {
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  border: none;
+  box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.164);
+  margin-bottom: 2rem;
+  transition: all .3s;
+  padding: 0 3px 0 3px;
+}
+
+.EditBusinessInput:hover {
+  outline: none;
+  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.308);
+}
+
+.SearchResult {
+  width: 75%;
+  border-radius: 10px;
+  background-color: rgb(58, 204, 172);
+  color: rgb(238, 230, 230);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  display: flex;
+  padding: 0 5px 5px 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.SearchResult:hover {
+  cursor: pointer;
+  background-color: rgb(80, 224, 169);
+}
+
+.SearchResult > * {
+  margin-top: 5px;
+}
+
+.SearchResultLogo {
+  margin-right: 5%;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.SearchResultLogoImg {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 8px;
+}
+
+.BusinessDetailsTabHome {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+}
+
+.BusinessDetailsTabHomeFirstRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(247, 244, 244);
+}
+
+.BusinessDetailsTabHomeSecondRowInput {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.BusinessDetailsTabHomeName {
+  font-size: 3rem;
+}
+
+.BusinessDetailsTabHomeSpace, .BusinessDetailsTabHomeBookmark {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.BusinessDetailsTabHomeBookmark {
+  border: 2px solid rgb(80, 224, 169);
+  border-radius: 5px;
+}
+
+.BusinessDetailsTabHomeBookmark:hover {
+  cursor: pointer;
+  background-color: rgb(80, 224, 169);
+}
+
+.BookmarkImage {
+  width: 100%;
+  height: 100%;
+}
+
+.BusinessDetailsTabHomeNameInput {
+  align-self: stretch;
+}
+
+.BusinessDetailsTabHomeAddress {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(240, 240, 240);
+}
+
+.AddressLine1Input {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.AddressLine2Input {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.BusinessDetailsTabCovid {
+  list-style: none;
+  list-style-type: none;
+}
+
+.BusinessDetailsTabCovid > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+}
+
+.MarginRight {
+  margin-right: 5px;
+}
+
+.BusinessDetailsTabCovid > li > input {
+  width: 80%;
+}
+.covidRulesHeader{
+ color:white;
+ align-self: center; 
+}.covidRules{
+  display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    color:white;
+}

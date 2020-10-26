@@ -1,0 +1,30 @@
+.HeaderLink {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderLinkText {
+  text-align: center;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.HeaderLink:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.HeaderLinkLogo {
+  margin-right: auto;
+}
+
+.logoImage:hover{
+opacity: 79%; 
+}
+
+.logoImage{
+  z-index: 1;
+  width: 7rem;
+  height: 7rem;
+  z-index: 2;
+}

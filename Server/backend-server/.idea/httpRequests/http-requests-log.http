@@ -1,0 +1,407 @@
+GET http://localhost:8080/api/business/findById/?id=299
+
+<> 2020-10-25T101644.200.json
+
+###
+
+PUT http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+"businessId": 299,
+  "maxOccupancy": 1000,
+  "name": "A New Name",
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [""],
+  "covidRules": [""],
+  "address": {
+    "streetAddress": "234798",
+    "city": "My City",
+    "state": "CA",
+    "zip": 10033
+  }
+}
+
+###
+
+PUT http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+"businessId": 299,
+  "maxOccupancy": 1000,
+  "name": "A New Name",
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [""],
+  "covidRules": [""],
+  "address": {
+    "streetAddress": "234798",
+    "city": "Palmdale",
+    "state": "CA",
+    "zip": 10033
+  }
+}
+
+<> 2020-10-25T101352.500.json
+
+###
+
+GET http://localhost:8080/api/business/findById/?id=299
+
+<> 2020-10-25T101327.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T101306.200.json
+
+###
+
+GET http://localhost:8080/api/account/
+
+<> 2020-10-25T101117.200.json
+
+###
+
+GET http://localhost:8080/api/account/findByHash/?hash=z47q6rq2j40wl202n89htyj93dov00w6753milxsg4t9iq4r3mpf8d8pty41ttci
+
+<> 2020-10-25T101111.200.json
+
+###
+
+GET http://localhost:8080/api/account/
+
+<> 2020-10-25T101104.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T100806.200.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T100700.200.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+###
+
+GET http://localhost:8080/api/business/findById/?id=299
+
+<> 2020-10-25T100622.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T100602.200.json
+
+###
+
+GET http://localhost:8080/api/business/findById/?id=299
+
+<> 2020-10-25T100431.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T100328.200.json
+
+###
+
+GET http://localhost:8080/api/business/findById/?id=89
+
+<> 2020-10-25T100326.200.json
+
+###
+
+GET http://localhost:8080/api/account/findByEmail/?email=Chester.Gonzalez@msn.com
+
+<> 2020-10-25T095559.200.json
+
+###
+
+GET http://localhost:8080/api/account/findByHash/?email=Chester.Gonzalez@msn.com
+
+<> 2020-10-25T095548.400.json
+
+###
+
+GET http://localhost:8080/api/account/
+
+<> 2020-10-25T095538.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T094402.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T094110.200.json
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T093517.200.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T092956.200.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+###
+
+GET http://localhost:8080/api/business/
+
+<> 2020-10-25T092947.200.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "addressInRequest": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+<> 2020-10-25T092732.400.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "addressInRequest": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+<> 2020-10-25T092647.400.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+<> 2020-10-25T092555.400.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+    "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+<> 2020-10-25T092447.400.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": [],
+  "address": {
+  "streetAddress": "123456",
+    "city": "Kansas City",
+    "state": "MO",
+    "zip": 21345
+  }
+}
+
+<> 2020-10-25T092418.400.json
+
+###
+
+POST http://localhost:8080/api/business/
+Content-Type: application/json
+
+{
+  "accountOwnerid": 1,
+  "name" : "A Custom Business Name",
+  "maxOccupancy": 99,
+  "covidRules": [],
+  "atRiskPopulationBusinessHours": "",
+  "imageFilesList": "",
+  "hoursOfOperation": []
+}
+
+<> 2020-10-25T092247.400.json
+
+###
+

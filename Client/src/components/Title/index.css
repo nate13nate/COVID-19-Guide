@@ -1,0 +1,11 @@
+.Title {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: rgb(247, 247, 247);
+  transition: all .5s;
+}
+
+.TitleTextWrapper {
+  transition: all .5s;
+}

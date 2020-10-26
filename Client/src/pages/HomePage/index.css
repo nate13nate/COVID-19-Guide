@@ -1,0 +1,44 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.HomePageResultsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.SearchMessage {
+  color: rgb(235, 235, 235);
+}
+
+.Row {
+  display: flex;
+  padding: 1rem 5% 0 5%;
+}
+
+.FilterInput {
+  height: 3rem;
+  font-size: 1.4rem;
+  margin-right: 5px;
+  margin-left: 5px;
+  box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.199);
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  transition: all .3s;
+}
+
+.FilterInput:focus {
+  outline: none;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.349);
+}
+
+.FilterInput::placeholder {
+  color: rgb(175, 175, 175);
+}
