@@ -1,18 +1,1 @@
-Problem explanation:
-Covid rules change day by day, and sometimes communication between businesses or instutions can be lost with the public. Since covid changes day by day it makes it really hard for the public to constantly know the policies that are in place with businesses or instutions. With covid-19 there are county wide policies regarding covid, but even within those policies businesses or instutions can make unique ones that only effect their business. 
-  
-
-
-
-Problem Solution: 
-Our Solution was creating a web application where all a consumer’s favorite business information on covid rules, adjusted hours, capacity and more, is in one place and combines that with a place where businesses can publish their information and reach as many people as possible.
-
-Businesses can create an account where they list their business information such as name and location, as well as Covid restrictions. This data is saved in a database and is ready for the user to search and view.
-
-The user is able to search a business by name. If the viewer would like to be notified if a specific business changes their rules, they can subscribe to a business and be emailed when a change occurs. This incorporates a very fast and effective way to deliver ever changing information to the consumer.  
-
-
-How it works:
-A consumer can go to our web application, and see all the latest changes that a business might have. We allow consumers to subscribe to a business, so that they get immediate updates if the business changes their covid rules. They can also favorite a business, so that they can find this business more easily the next time they get onto our application. This quick and effective method of getting all the recent covid information allows the consumer to never have to guess again on what the covid restrictions are for a business near them. 
-
-On the business side you go to our web application, and create a business account. This allows you to put all the general information about your business on our web application as well as the unique information that consumers must follow in regards to covid-19. 
+The problem that we decided to work on was the communication between businesses or institutions with the public. Since covid changes day by day it makes it really hard for the public to constantly know the policies that are in place with a business or institution. That is why we created this web application called The COVID-19 Guide. We used spring boot for the backend and react for the frontend. We also store business and user information using Spring JPA. Are web application has two sides to it. A business side and a public/consumer side. The public/consumer can login or signup when they enter our web application. After they do that they can see all the latest changes that a business might have regarding Covid-19 rules, store hours, store occupancy, and etc... We allow consumers to subscribe to a business, so that they get immediate updates if the business changes any of their information. They can also favorite a business or institution, so that they can find this business/institution more easily the next time they get onto our application. On the business side you sign up or login just like the public/consumer when you enter our web application, and create a business account. This allows you to put all the general information about your business on our web application as well as the unique information that the public/consumer must follow in regards to covid-19. A business or institution can log back into our web application whenever they need to update the different fields that they filled out originally. This allows for a more universal way to communicate between business/institution with the public/consumer. 
