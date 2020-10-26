@@ -39,7 +39,7 @@ public class App implements CommandLineRunner {
 
         accountRepository.save(account);
 
-        dataGenerator.createBusinessList(30);
-        dataGenerator.createCustomerEntityList(100);
+        dataGenerator.createBusinessList(100);
+        dataGenerator.createCustomerEntityList(1000);
     }
 }
